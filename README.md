@@ -116,6 +116,86 @@
 
 ![53cfd090-59f0-4841-8b9d-401d9658a3b5](https://github.com/user-attachments/assets/80cb46ce-f0b4-4d08-9787-60202cb50c64)
 
-30.locate - Mencari file dengan menggunakan database yang telah dibuat sebelumnya
+30.locate - Mencari file dengan menggunakan database yang telah dibuat sebelumnya.
 
-![36285827-4572-4460-aba9-578b6c163844](https://github.com/user-attachments/assets/bfc43b96-db85-4f80-8dd4-7d1f63cd78c5)
+![0686dc77-b4b8-4ede-85d6-d70fe954fc65](https://github.com/user-attachments/assets/e22899a4-8931-4319-871a-39233e9ef703)
+
+31.free -m – Menampilkan penggunaan RAM.
+
+![0686dc77-b4b8-4ede-85d6-d70fe954fc65](https://github.com/user-attachments/assets/cce5f2f4-1422-4668-bbf3-9a48b2492525)
+
+32.netstat -tulnp – Menampilkan daftar port yang terbuka.
+
+![ca1b4072-bf17-4276-b736-b1c310311b92](https://github.com/user-attachments/assets/547770f6-8dfe-46c2-b9ea-98b764f47fb1)
+
+33.scp file user@server:/path/ – Menyalin file ke server lain melalui SSH
+
+![4b2bfefa-29a0-448f-b896-1b0b25abcec7](https://github.com/user-attachments/assets/a8e0a820-eaa6-43c1-acff-3b6270cf9f33)
+
+34.ssh user@server – Masuk ke server melalui SSH.
+
+![870fc5f1-e57d-49c6-a806-4c25791ef309](https://github.com/user-attachments/assets/068c0e21-0b55-481b-bc1b-16d3bd0361bc)
+
+35.basename /path/file.txt – Menampilkan nama file dari path lengkap.
+
+![f908067a-6e35-4920-a796-5b7cd56af0c3](https://github.com/user-attachments/assets/556bf774-4621-441b-8bad-6b89d04c66d6)
+
+36.dpkg --dapatkan-pilihan | grepinstall – Menampilkan daftar paket yang terinstal.
+
+![4e838859-4e3d-4b4a-a967-46113fd01c8c](https://github.com/user-attachments/assets/a44923d1-f64e-4c9f-9aaa-854b41fde5d3)
+
+37.modprobe modul_ker – Memuat modul kernel tertentu.
+
+![14246d30-a389-4312-8823-d80cd81a3212](https://github.com/user-attachments/assets/66d3d9a2-92ce-40ad-997b-2ee552c19c97)
+
+38.vmstat 2 5 – Menampilkan statistik penggunaan CPU, memori, dan disk setiap 2 detik sebanyak 5 kali.
+
+![2c320668-10c7-46b2-b729-dc7e8407c386](https://github.com/user-attachments/assets/832f244b-55ff-41fb-8296-b4cd8a2c585b)
+
+39.arp -a – Menampilkan daftar perangkat yang terhubung di jaringan lokal.
+
+![46ba1f42-7d1c-486c-825e-9644ad640bdb](https://github.com/user-attachments/assets/7f92a8e0-ef0d-4319-bf42-14e532220f81)
+
+40.chmod 777 nama_file – Mengubah izin file menjadi akses penuh.
+
+![ff786230-a750-4a9c-afff-45f88d5caf39](https://github.com/user-attachments/assets/49dc9342-9d0b-4c7e-9e2e-fc41ab47cd2a)
+
+41.ip a – Menampilkan alamat IP.
+
+![0c86a8d6-0ad8-475a-bc51-eeb5f4a03f13](https://github.com/user-attachments/assets/21cfda59-209d-4971-a0ba-25cf35936615)
+
+42.nslookup google.com – Mengecek DNS suatu domain.
+
+![dda65cfa-c7f8-471b-943b-1bf211eff094](https://github.com/user-attachments/assets/a574b014-c0d1-465d-881a-6a21a8c89bfe)
+
+43.lsusb – Menampilkan daftar perangkat USB yang terhubung ke sistem.
+
+![9a2b9410-e1f1-42ae-8210-0f989284820e](https://github.com/user-attachments/assets/e6af7d3e-503f-4234-9d1a-79c8210627f2)
+
+44.cowsay "Halo, Ubuntu!" – Menampilkan teks dalam bentuk balon dialog sapi (harus diinstal dulu: sudo apt install cowsay).
+
+![f1cd5e03-0e50-4ed4-89ce-368194407eca](https://github.com/user-attachments/assets/c78b062a-10d2-4ccc-9632-1b49ed63592a)
+
+45.iptables -L – Menampilkan aturan firewall yang sedang aktif.
+
+![7012c93e-7902-4fee-9a4f-b1553c4ea95c](https://github.com/user-attachments/assets/7bbbc671-5767-42b6-b511-e6ead9691b26)
+
+46.traceroute google.com – Menampilkan rute jaringan ke server.
+
+![fec2d37c-9858-43a1-8208-2dd6f74e35b3](https://github.com/user-attachments/assets/f89d8c9c-e575-4d3f-ab4e-5a41fc4c47cf)
+
+47.stat nama_file – Menampilkan detail file metadata.
+
+![58a6fb88-ad12-4977-97c7-08c636e58bd9](https://github.com/user-attachments/assets/f1d4fa74-553e-4587-b76a-984359de0019)
+
+48.kill -9 PID – Menghentikan proses berdasarkan PID.
+
+![a0fa6662-1b63-4d27-895a-10b28c13f70a](https://github.com/user-attachments/assets/2aff596a-10a0-453a-899e-8f9736822e08)
+
+49.ls – Menampilkan daftar file dan folder.
+
+![3882a2b9-d0e3-4a32-9280-afb50576ba5f](https://github.com/user-attachments/assets/82379bc4-9987-4b1b-a98a-e2880947e328)
+
+50.cd .. – Kembali ke direktori sebelumnya.
+
+![8eb7bfcd-8363-42bc-ad0f-815bd7b1b3bf](https://github.com/user-attachments/assets/8d4aeee4-0397-4472-af79-de83a961cf58)
